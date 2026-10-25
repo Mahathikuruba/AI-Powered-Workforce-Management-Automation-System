@@ -163,10 +163,13 @@ uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
 - Interactive Swagger UI: `http://localhost:8000/docs`
 - ReDoc Documentation: `http://localhost:8000/redoc`
 - Health Check: `http://localhost:8000/health`
+## 4. Demo Video
+[▶ Watch the AI-Powered Workforce Management System Demo]
+(https://drive.google.com/file/d/1M25PfAFCaWkdBzJavlosdF3-njqXpc0F/view?usp=sharing)  
 
 ---
 
-## 4. Running Automated Tests
+## 5. Running Automated Tests
 
 Run the complete 32-test suite:
 ```bash
@@ -184,7 +187,7 @@ Test coverage includes:
 
 ---
 
-## 5. AI Features Specification
+## 6. AI Features Specification
 
 1. **HR Database Assistant (`POST /ai/assistant`)**:
    Translates natural language questions into database queries. Enforces strict RBAC: employees attempting to query private records of peers are denied with access violation alerts.
